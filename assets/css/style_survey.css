@@ -1,0 +1,98 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(231deg, #B0BAC0 4.52%, #D9ECF4 12.34%, #E3DAC5 94.39%, #FFF 112.85%);
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 25px;
+  color: #2C2C2C;
+  font-family: 'jsMath-cmbx10', Arial, sans-serif;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #91CFE9 0%, #B0BAC0 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: fit-content;
+}
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #F6EEDB;
+  padding: 20px;
+  border: 1px solid #473a0d;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #2C2C2C;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #73797d;
+  color: #2C2C2C;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: #91CFE9;
+}
+
+.back-to-dashboard {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.back-to-dashboard a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #73797d;
+  color: #ffffff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.back-to-dashboard a:hover {
+  background-color: #91CFE9;
+}
+
+.option {
+  margin-bottom: 10px;
+}

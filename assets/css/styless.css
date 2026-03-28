@@ -1,0 +1,50 @@
+/* Reset default margin and padding */
+body, h2, a {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(231deg, #B0BAC0 4.52%, #D9ECF4 12.34%, #E3DAC5 94.39%, #FFF 112.85%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #F6EEDB;
+    padding: 20px;
+    border: 1px solid #473a0d;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #91CFE9 0%, #B0BAC0 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: #2C2C2C;
+  }
+  
+  a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #151515;
+    width: calc(100% - 22px); /* Adjusting for padding and border */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #473a0d;
+    border-radius: 4px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #601212;
+  }
+  

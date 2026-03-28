@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(231deg, #b0bac0 4.52%, #d9ecf4 12.34%, #e3dac5 94.39%, #fff 112.85%);
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 50px;
+  color: #2c2c2c;
+  font-family: 'jsMath-cmbx10', Arial, sans-serif;
+  width: fit-content;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #91cfe9 0%, #b0bac0 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0;
+}
+
+.gallery-container {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.gallery-wrapper {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.gallery-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 100%;
+}
+
+.gallery-item {
+  background-color: #f6eedb;
+  border: 1px solid #473a0d;
+  padding: 10px;
+  width: 45%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.gallery-image {
+  width: 66%;
+  max-height: 230px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.gallery-content {
+  width: 100%;
+  color: #2c2c2cd2;
+  font-family: "Inria Sans", Arial, sans-serif;
+  font-size: 1em;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.gallery-content h3 {
+  margin: 10px auto;
+  color: #601212;
+  font-family: "Inknut Antiqua", Arial, sans-serif;
+  font-size: 20px;
+}
+
+.timestamp {
+  font-size: 18px;
+  color: #2c2c2ca6;
+  font-family: "Inria Sans", Arial, sans-serif;
+  margin: 10px 0;
+}
+
+.short-text {
+  text-align: center;
+  color: #483d1e;
+  font-family: "Inria Sans", Arial, sans-serif;
+  font-size: 15px;
+  margin: 10px 0;
+  text-indent: 0;
+}
+
+.full-text {
+  text-align: justify;
+  color: #2c2c2c;
+  font-family: "Inria Sans", Arial, sans-serif;
+  font-size: 15px;
+  margin: 10px 0;
+  text-indent: 2em;
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.toggle-text {
+  color: #0066cc;
+  cursor: pointer;
+}
+
+.toggle-text:hover {
+  text-decoration: underline;
+}
+
+button.prev,
+button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button.prev {
+  left: 0;
+}
+
+button.next {
+  right: 0;
+}
+
+button.prev:hover,
+button.next:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-container a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #73797d;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button-container a:hover {
+  background-color: #91cfe9;
+}

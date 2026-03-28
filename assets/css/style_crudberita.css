@@ -1,0 +1,223 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(231deg, #B0BAC0 4.52%, #D9ECF4 12.34%, #E3DAC5 94.39%, #FFF 112.85%);
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  background: linear-gradient(90deg, #91CFE9 0%, #B0BAC0 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  color: #2C2C2C;
+  margin: 20px auto 15px;
+  font-size: 20px;
+  padding: 5px 15px;
+  font-family: 'jsMath-cmbx10', Arial, sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #8e7d55 0%, #526876 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #e8e4e4;
+  color: rgb(9, 145, 149);
+}
+
+.form-container {
+  max-width: 400px; /* Adjusted maximum width */
+  background-color: #F6EEDB;
+  border: 1px solid #473a0d;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; /* Center align the form container */
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-container input[type=text],
+.form-container textarea,
+.form-container input[type=file],
+.form-container input[type=datetime-local] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #F6EEDB;
+  border: 1px solid #473a0d;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.form-container textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.form-container input[type=submit] {
+  background-color: #73797d;
+  color: #2C2C2C;
+  border: none;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.form-container input[type=submit]:hover {
+  background-color: #91CFE9;
+}
+
+/* CSS v1.0 */
+.table-container {
+  background-color: #F6EEDB;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  margin: 0 auto; /* Center align the table container */
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center; /* Center align table text */
+}
+
+.table-container th {
+  background-color: #F6EEDB;
+  padding: 8px;
+  font-size: 19px; /* Change font size to 19px */
+  color: #2f1110;
+  border: 1px solid #473a0d;
+}
+
+.table-container td {
+  background-color: #F6EEDB;
+  color: #2C2C2C;
+  padding: 8px;
+  font-size: 16px; /* Change font size to 16px */
+  border: 1px solid #473a0d;
+}
+
+.table-container th {
+  background-color: #B39F6D;
+}
+
+.table-container tr:nth-child(even) {
+  background-color: #129f9f;
+}
+
+.table-container tr:hover {
+  background-color: #583197;
+}
+
+.table-container td:nth-child(5) { /* Adjust the font size of the Waktu column */
+  font-size: 12px;
+}
+
+.table-container td:nth-child(2) { /* Center align the text of the Judul column */
+  text-align: center;
+}
+
+.gallery-image {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.actions a,
+.actions form input[type=submit] {
+  margin-right: 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #007bff;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.actions a:hover,
+.actions form input[type=submit]:hover {
+  background-color: #B39F6D;
+}
+
+.actions form { 
+  margin: 0;
+}
+
+.actions form input[type=submit] {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.actions form input[type=submit]:hover {
+  background-color: #4f2624;
+}
+
+.back-to-dashboard {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.back-to-dashboard a {
+  padding: 10px 20px;
+  background-color: #73797d;
+  color: #ffffff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.back-to-dashboard a:hover {
+  background-color: #91CFE9;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  form,
+  table {
+    width: 100%;
+    margin: 10px;
+    box-shadow: none;
+  }
+}

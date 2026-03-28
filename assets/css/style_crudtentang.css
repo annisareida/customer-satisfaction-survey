@@ -1,0 +1,154 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(231deg, #B0BAC0 4.52%, #D9ECF4 12.34%, #E3DAC5 94.39%, #FFF 112.85%);
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 25px;
+  color: #2c2c2c;
+  font-family: 'jsMath-cmbx10', Arial, sans-serif;
+  width: fit-content;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #91cfe9 0%, #b0bac0 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #8e7d55 0%, #526876 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #e8e4e4;
+  color: rgb(9, 145, 149);
+}
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #F6EEDB;
+  padding: 20px;
+  border: 1px solid #473a0d;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #2C2C2C;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+input[type="file"] {
+  display: block;
+  margin-top: 10px;
+}
+
+button[type="submit"],
+button.add-button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #73797d;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button.add-button:hover {
+  background-color: #91CFE9;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #F6EEDB;
+  padding: 20px;
+  border: 1px solid #473a0d;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #473a0d;
+  color: #2C2C2C;
+}
+
+table th {
+  background-color: #B39F6D;
+  color: #2f1110;
+}
+
+.delete-link {
+  color: #007bff;
+  background-color: transparent;
+  border-bottom: 3px;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.delete-link:hover {
+  background-color: #B39F6D;
+  color: #007bff;
+}
+
+.back-to-dashboard {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.back-to-dashboard a {
+  padding: 10px 20px;
+  background-color: #73797d;
+  color: #ffffff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.back-to-dashboard a:hover {
+  background-color: #91CFE9;
+}

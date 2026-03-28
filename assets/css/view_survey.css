@@ -1,0 +1,133 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(231deg, #B0BAC0 4.52%, #D9ECF4 12.34%, #E3DAC5 94.39%, #FFF 112.85%);
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 25px;
+  color: #2C2C2C;
+  font-family: 'jsMath-cmbx10', Arial, sans-serif;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #91CFE9 0%, #B0BAC0 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #8e7d55 0%, #526876 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #e8e4e4;
+  color: rgb(9, 145, 149);
+}
+
+.table-container {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 20px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #F6EEDB;
+  padding: 20px;
+  border: 1px solid #473a0d;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #473a0d;
+  color: #2C2C2C;
+}
+
+table th {
+  background-color: #B39F6D;
+  color: #2f1110;
+}
+
+.back-to-dashboard {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.back-to-dashboard a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #73797d;
+  color: #ffffff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.back-to-dashboard a:hover {
+  background-color: #91CFE9;
+}
+
+/* Select Bulan */
+#bulan {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+/* Filter Button */
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #73797d;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #91CFE9;
+}
+
+/* Delete Link */
+.delete-link {
+  background-color: transparent;
+  color: #007bff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-link:hover {
+  background-color: #B39F6D;
+}
+
