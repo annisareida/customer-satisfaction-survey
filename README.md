@@ -44,61 +44,83 @@ WEB-SURVEY-BPKARSS/
 ├── views/              # UI Components: Templates, Login, and Dashboard layouts
 ├── index.php           # Application Entry Point
 └── README.md           # Technical Documentation
+```
 
-🚀 Key Features
-1. Passenger Survey Interface
-Structured survey forms for service evaluation.
+---
 
-Interactive feedback loops for LRT passenger satisfaction.
+## 🚀 Key Features
 
-2. Comprehensive Admin CMS (CRUD)
+### 1. Passenger Survey Interface
+
+* Structured survey forms for service evaluation.
+* Interactive feedback loops for LRT passenger satisfaction.
+
+### 2. Comprehensive Admin CMS (CRUD)
+
 The administrator can manage all site content through a secure dashboard:
 
-Berita: Management of latest updates and news.
+* **Berita:** Management of latest updates and news.
+* **Galeri:** Image management for BPKARSS activities.
+* **Pertanyaan:** Dynamic FAQ and survey question management.
 
-Galeri: Image management for BPKARSS activities.
+### 3. Responsive Design
 
-Pertanyaan: Dynamic FAQ and survey question management.
+* Optimized for mobile and desktop viewing, ensuring passengers can fill out surveys easily at the station.
 
-3. Responsive Design
-Optimized for mobile and desktop viewing, ensuring passengers can fill out surveys easily at the station.
+---
 
-🔧 Installation & Setup
-Clone the Repository
+## 🔧 Installation & Setup
 
-Bash
-git clone [https://github.com/annisareida/bpkarss-survey-web.git](https://github.com/annisareida/bpkarss-survey-web.git)
-Database Configuration
+### 1. Clone the Repository
 
-Create a database named db_bpkarss in your Local Server (XAMPP).
+```bash
+git clone https://github.com/annisareida/bpkarss-survey-web.git
+```
 
-Import the database.sql file (if provided) or create the necessary tables.
+### 2. Database Configuration
 
-Update includes/config.php with your local credentials:
+- Create a database named `db_bpkarss`
+- Import the `database.sql` file
+- Update `includes/config.php` with your local credentials:
 
-PHP
+```php
 $host = "localhost";
 $user = "root";
 $pass = "";
 $db   = "db_bpkarss";
-Run Locally
+```
 
-Move the project folder to your htdocs directory.
+### 3. Run Locally
 
-Open your browser and access http://localhost/bpkarss-survey-web.
+- Move the folder to `htdocs` (XAMPP)
+- Access via:
 
-✍️ Documentation Insights
-From a Technical Writer perspective, this project emphasizes:
+```
+http://localhost/bpkarss-survey-web
+```
 
-Modularity: Separating logic (actions/) from presentation (views/) to simplify debugging.
+---
 
-Descriptive Naming: Clear file naming conventions for better collaboration.
+## ✍️ Technical Documentation Insights
 
-User-Centric Design: Simplifying the survey flow for non-technical end-users.
+From a **Technical Writer** perspective, this project emphasizes:
 
-👤 Author
-Annisa Reida Raheima
+* **Modularity:** Separating logic (`actions/`) from presentation (`views/`) to simplify debugging.
+* **Descriptive Naming:** Clear file naming conventions for better collaboration.
+* **User-Centric Design:** Simplifying the survey flow for non-technical end-users.
 
-Informatics Engineering - Sriwijaya University
+---
 
-LinkedIn | Email
+## 👤 Author
+
+**Annisa Reida Raheima**
+
+* Informatics Engineering - Sriwijaya University  
+* [LinkedIn](https://linkedin.com/in/annisareida)  
+* Email: annisaheyy@gmail.com  
+
+---
+
+*Developed as part of a professional initiative to support data-driven decision-making at BPKARSS.*
+
+---
