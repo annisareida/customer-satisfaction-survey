@@ -7,7 +7,7 @@ This repository contains a web-based application developed to modernize the feed
 
 ## 📖 Project Overview
 
-As a final-year Informatics Engineering student, I developed this system to bridge the gap between passenger feedback and management response. The application provides an intuitive interface for passengers and a robust management system for administrators.
+During my internship as an Informatics Engineering student, I developed this system to bridge the gap between passenger feedback and management response. The application provides an intuitive interface for passengers and a robust management system for administrators.
 
 ### 🎯 Core Objectives
 * **Digitization:** Eliminating paper waste and manual data entry.
@@ -42,7 +42,7 @@ WEB-SURVEY-BPKARSS/
 │   └── js/             # Client-side scripts
 ├── includes/           # Core: Database connection (config.php)
 ├── views/              # UI Components: Templates, Login, and Dashboard layouts
-├── index.php           # Application Entry Point
+├── index.html           # Application Entry Point
 └── README.md           # Technical Documentation
 ```
 
@@ -74,7 +74,7 @@ The administrator can manage all site content through a secure dashboard:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/annisareida/bpkarss-survey-web.git
+git clone https://github.com/annisareida/customer-satisfaction-survey.git
 ```
 
 ### 2. Database Configuration
@@ -96,7 +96,7 @@ $db   = "db_bpkarss";
 - Access via:
 
 ```
-http://localhost/bpkarss-survey-web
+http://localhost/customer-satisfaction-survey
 ```
 
 ---
